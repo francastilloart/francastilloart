@@ -1,1 +1,1 @@
-# Esto es un portfolio estático simple
+# Esto es un portfolio
