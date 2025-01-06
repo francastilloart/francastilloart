@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 - Página no encontrada</title>
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/icons/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+    <style>
+        body{
+            background-color: var(--color-3);
+        }
+
+        html {
+            height: 100%;
+        }
+
+        #main{
+            display: table;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .fof{
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .fof h1{
+            font-size: var(--text-display-3);
+            font-weight:bolder;
+            display: inline-block;
+            padding-right: 12px;
+            animation: type .5s alternate infinite;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: var(--color-4);
+        }
+
+        @media screen and (max-width: 500px) {
+
+            .fof h1{
+                line-height: calc(2.3 * var(--space));
+            }
+        }
+
+        .fof h2{
+            font-size: var(--text-lg);
+            line-height: normal;
+            display: inline-block;
+            color: var(--color-4);
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .fof p{
+            font-size: var(--text-xl);
+            line-height: normal;
+            display: inline-block;
+            color: var(--color-4);
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .fof a{
+            font-size: var(--text-md);
+            line-height: normal;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        @keyframes type{
+            from{box-shadow: inset -3px 0px 0px var(--color-1);}
+            to{box-shadow: inset -3px 0px 0px transparent;}
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    	<div class="fof">
+        	<h1>404</h1>
+            <hr style="margin: 0;border: none; height: 10px; background-color: transparent;">
+            <h2>Page not found.</h2>
+            <hr style="margin: 0;border: none; height: 10px; background-color: transparent;">
+            <a href="/">GO TO HOME</a>
+    	</div>
+    </div>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
